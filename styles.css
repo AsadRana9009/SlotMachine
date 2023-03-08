@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+a {
+	color: #283593;
+	text-decoration: none;
+}
+
+h3 {
+	margin-top: 12px;
+}
+
+* {
+	margin: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+	border-radius: 5px;
+	background-color: royalblue;
+	
+}
+
+
+
+section#status {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #37474F;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+section#player_info {
+	border-radius: 5px;
+	text-align: center;
+	background-color: #37474F;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+section#Slots {
+	border-radius: 15px;
+	background-color: green;
+}
+
+section#Slots_2 {
+	border-radius: 15px;
+	background-color: green;
+}
+
+section#Slots_3 {
+	border-radius: 15px;
+	background-color: green;
+}
+
+section#Gira {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgb(17, 54, 104);
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+section#Gira:hover {
+	background-color: forestgreen;
+}
+
+section#options {
+	border-radius: 5px;
+	background-color: rgb(14, 87, 116);
+	color: #FFFFFF;
+}
+
+#slot1,
+#slot2,
+#slot3 {
+	display: inline-block;
+	background-size: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 75px;
+
+}
+
+
+
+
+#slot4,
+#slot5,
+#slot6 {
+	display: inline-block;
+	background-size: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 75px;
+}
+
+
+#slot7,
+#slot8,
+#slot9 {
+	display: inline-block;
+	background-size: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 150px;
+	height: 75px;
+}
+
+#total_money,
+#winning,
+#lose {
+	display: inline-block;
+}
+
+.a1 {
+	background-image: url("res/tiles/seven.png");
+}
+
+.a2 {
+	background-image: url("res/tiles/cherries.png");
+}
+
+.a3 {
+	background-image: url("res/tiles/club.png");
+}
+
+.a4 {
+	background-image: url("res/tiles/diamond.png");
+}
+
+.a5 {
+	background-image: url("res/tiles/heart.png");
+}
+
+.a6 {
+	background-image: url("res/tiles/spade.png");
+}
+
+.a7 {
+	background-image: url("res/tiles/joker.png");
+}
+
+#bg1 {
+	background-image: url("res/backgrounds/bg1.jpg");
+}
+
+#bg2 {
+	background-image: url("res/backgrounds/bg2.jpg");
+}
+
+#bg3 {
+	background-image: url("res/backgrounds/bg3.jpg");
+}
+
+#bg4 {
+	background-image: url("res/backgrounds/bg4.jpg");
+}
